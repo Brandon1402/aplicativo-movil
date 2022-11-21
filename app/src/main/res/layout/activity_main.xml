@@ -72,8 +72,8 @@
             android:layout_marginEnd="91dp"
             android:layout_marginBottom="158dp"
             android:backgroundTint="@color/white"
-            android:fontFamily="@font/inter"
             android:includeFontPadding="false"
+            android:fontFamily="@font/inter"
             android:text="Crear cuenta"
             android:textColor="@color/black"
             app:cornerRadius="80dp" />
