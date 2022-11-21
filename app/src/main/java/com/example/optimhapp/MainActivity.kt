@@ -10,16 +10,26 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        iniEvent()
+       iniEvent()
+         crearCuenta()
     }
-    fun iniEvent(){
 
-        val ImageView = findViewById<ImageView>(R.id.imageView6)
-        ImageView.setOnClickListener {
+   fun iniEvent() {
+
+        val Button = findViewById<Button>(R.id.button2)
+        Button.setOnClickListener {
             val intent = Intent(this, InicioSesion::class.java)
             startActivity(intent)
         }
-}
+    }
+        fun crearCuenta() {
 
+            val Button = findViewById<Button>(R.id.button)
+            Button.setOnClickListener {
+                val intent = Intent(this, CreacCuenta::class.java)
+                startActivity(intent)
+            }
+
+        }
 
 }
