@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">optimhapp</string>
+    <string name="ayuda">¿Necesitas ayuda con tu contraseña?</string>
+    <string name="ingresar">Ingresa el correo electrónico que utilizas en OPTIMHAPP y recibirás un código de recuperación.</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="Welcome">¡Bienvenido de nuevo!</string>
+
+
 </resources>

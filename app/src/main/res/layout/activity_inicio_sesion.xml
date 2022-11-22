@@ -30,7 +30,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="¡Bienvenido de nuevo!"
+        android:text="@string/Welcome"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/button5"
@@ -49,7 +49,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.419"
-        app:srcCompat="@drawable/correo" />
+        app:srcCompat="@drawable/correo"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -60,7 +61,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.623"
-        app:srcCompat="@drawable/correo" />
+        app:srcCompat="@drawable/correo"
+        tools:ignore="ImageContrastCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -68,11 +70,13 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -80,12 +84,14 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714" />
+        app:layout_constraintVertical_bias="0.714"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/button3"
@@ -99,7 +105,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.885" />
+        app:layout_constraintVertical_bias="0.885"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView5"
@@ -113,7 +120,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.417" />
+        app:layout_constraintVertical_bias="0.417"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView7"
@@ -127,7 +135,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.619" />
+        app:layout_constraintVertical_bias="0.619"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button4"
@@ -143,7 +152,8 @@
         app:layout_constraintHorizontal_bias="0.676"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.778" />
+        app:layout_constraintVertical_bias="0.778"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button5"
@@ -158,6 +168,7 @@
         app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
