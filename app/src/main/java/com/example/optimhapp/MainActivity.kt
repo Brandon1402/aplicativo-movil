@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
        iniEvent()
          crearCuenta()
-         olvidocontra()
+
+
     }
 
    fun iniEvent() {
@@ -31,16 +32,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
 
+
         }
 
-      fun olvidocontra() {
 
-        val Button = findViewById<Button>(R.id.button4)
-        Button.setOnClickListener {
-            val intent = Intent(this, OlvidoContrasena::class.java)
-            startActivity(intent)
-        }
 
-    }
+
 
 }

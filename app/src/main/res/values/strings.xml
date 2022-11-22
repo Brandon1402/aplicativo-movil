@@ -4,6 +4,9 @@
     <string name="ingresar">Ingresa el correo electrónico que utilizas en OPTIMHAPP y recibirás un código de recuperación.</string>
     <string name="siguiente">Siguiente</string>
     <string name="Welcome">¡Bienvenido de nuevo!</string>
+    <string name="olvido">¿Necesitas ayuda con tu contraseña?</string>
+    <string name="Intru">Para iniciar con el test de OPTIMHAPP el cual nos ayuda a validar si presentas o no una discapacidad ocular como miopía, astigmatismo e hipermetropía es necesario que tengas en cuenta que el diagnostico no es 100% veridico, es una aproximación de este.</string>
+    <string name="aceptar">Aceptar</string>
 
 
 </resources>
