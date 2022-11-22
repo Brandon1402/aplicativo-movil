@@ -4,15 +4,149 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
     tools:context=".CreacCuenta">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Crear c uenta gg"
+    <RelativeLayout
+        android:layout_width="417dp"
+        android:layout_height="883dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="374dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="521dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="-12dp"
+            app:srcCompat="@drawable/ellipse_4" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="284dp"
+            android:layout_height="712dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="129dp"
+            android:layout_marginBottom="75dp"
+            app:srcCompat="@drawable/ellipse_3" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="278dp"
+            android:layout_height="89dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="733dp"
+            android:fontFamily="@font/inter"
+            android:text="Regístrate en OPTIMHAPP"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="310dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="241dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="598dp"
+            android:background="@drawable/rectangle_8"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nombre completo" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="310dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="311dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="528dp"
+            android:background="@drawable/correo"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="correo electronico" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="377dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="463dp"
+            android:background="@drawable/rectangle_9"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="contraseña" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="177dp"
+            android:layout_height="75dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="593dp"
+            android:layout_marginEnd="102dp"
+            android:layout_marginBottom="215dp"
+            android:backgroundTint="@color/white"
+            android:text="Crear cuenta"
+            android:textColor="@color/black"
+            app:cornerRadius="80dp" />
+
+        <Button
+            android:id="@+id/button9"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="320dp"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="779dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="46dp"
+            android:backgroundTint="@color/fondo_gris"
+            android:text="¿Ya tienes cuenta? ingresa aquí"
+            android:textColor="#1581FF" />
+
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
