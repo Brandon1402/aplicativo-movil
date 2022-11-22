@@ -5,17 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Instrucciones : AppCompatActivity() {
+class pregunta6 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_instrucciones)
+        setContentView(R.layout.activity_pregunta6)
         iniEvent()
     }
     fun iniEvent() {
 
-        val Button = findViewById<Button>(R.id.button7)
+        val Button = findViewById<Button>(R.id.button24)
         Button.setOnClickListener {
-            val intent = Intent(this, Menu::class.java)
+            val intent = Intent(this, pregunta7::class.java)
             startActivity(intent)
         }
     }
