@@ -7,6 +7,10 @@
     <string name="olvido">¿Necesitas ayuda con tu contraseña?</string>
     <string name="Intru">Para iniciar con el test de OPTIMHAPP el cual nos ayuda a validar si presentas o no una discapacidad ocular como miopía, astigmatismo e hipermetropía es necesario que tengas en cuenta que el diagnostico no es 100% veridico, es una aproximación de este.</string>
     <string name="aceptar">Aceptar</string>
+    <string name="tes">Test</string>
+    <string name="opti">Ópticas</string>
+    <string name="ejer">Ejercicios</string>
+    <string name="recomen">Recomendaciones</string>
 
 
 </resources>

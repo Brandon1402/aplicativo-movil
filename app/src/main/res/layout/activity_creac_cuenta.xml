@@ -77,8 +77,8 @@
             android:layout_marginBottom="598dp"
             android:background="@drawable/rectangle_8"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Nombre completo" />
+            android:hint="Nombre completo"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress2"
@@ -94,8 +94,8 @@
             android:layout_marginBottom="528dp"
             android:background="@drawable/correo"
             android:ems="10"
-            android:inputType="textEmailAddress"
-            android:text="correo electronico" />
+            android:hint="Correo electronico"
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/editTextTextPassword2"
@@ -111,8 +111,8 @@
             android:layout_marginBottom="463dp"
             android:background="@drawable/rectangle_9"
             android:ems="10"
-            android:inputType="textPassword"
-            android:text="contraseña" />
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
 
         <Button
             android:id="@+id/button8"
