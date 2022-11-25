@@ -48,33 +48,33 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="278dp"
-            android:layout_height="89dp"
+            android:layout_width="372dp"
+            android:layout_height="85dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="83dp"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="61dp"
-            android:layout_marginEnd="56dp"
-            android:layout_marginBottom="733dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="737dp"
             android:fontFamily="@font/inter"
             android:text="Regístrate en OPTIMHAPP"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="29sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
-            android:layout_width="310dp"
-            android:layout_height="44dp"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="67dp"
+            android:layout_marginStart="58dp"
             android:layout_marginTop="241dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginBottom="598dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="590dp"
             android:background="@drawable/rectangle_8"
             android:ems="10"
             android:hint="Nombre completo"
@@ -82,16 +82,16 @@
 
         <EditText
             android:id="@+id/editTextTextEmailAddress2"
-            android:layout_width="310dp"
-            android:layout_height="44dp"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="67dp"
+            android:layout_marginStart="57dp"
             android:layout_marginTop="311dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginBottom="528dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="520dp"
             android:background="@drawable/correo"
             android:ems="10"
             android:hint="Correo electronico"
@@ -99,16 +99,16 @@
 
         <EditText
             android:id="@+id/editTextTextPassword2"
-            android:layout_width="309dp"
+            android:layout_width="316dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="69dp"
-            android:layout_marginTop="377dp"
-            android:layout_marginEnd="39dp"
-            android:layout_marginBottom="463dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="378dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="454dp"
             android:background="@drawable/rectangle_9"
             android:ems="10"
             android:hint="Contraseña"
@@ -129,6 +129,7 @@
             android:backgroundTint="@color/white"
             android:text="Crear cuenta"
             android:textColor="@color/black"
+            android:textSize="18dp"
             app:cornerRadius="80dp" />
 
         <Button
@@ -146,7 +147,8 @@
             android:layout_marginBottom="46dp"
             android:backgroundTint="@color/fondo_gris"
             android:text="¿Ya tienes cuenta? ingresa aquí"
-            android:textColor="#1581FF" />
+            android:textColor="#1581FF"
+            android:textSize="17dp" />
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

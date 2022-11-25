@@ -11,6 +11,7 @@
     <string name="opti">Ópticas</string>
     <string name="ejer">Ejercicios</string>
     <string name="recomen">Recomendaciones</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 
 </resources>

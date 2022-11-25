@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".diagnostico">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="889dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="367dp"
+            android:layout_height="336dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-7dp"
+            android:layout_marginTop="585dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="-32dp"
+            app:srcCompat="@drawable/ellipse_5" />
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="match_parent"
+            android:layout_height="237dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-34dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="685dp"
+            app:srcCompat="@drawable/rectangle_22" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="190dp"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="114dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginBottom="766dp"
+            android:text="Diagnostico"
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+
+        <ImageView
+            android:id="@+id/imageView50"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="352dp"
+            android:layout_marginBottom="839dp"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

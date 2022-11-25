@@ -72,10 +72,11 @@
             android:layout_marginEnd="91dp"
             android:layout_marginBottom="158dp"
             android:backgroundTint="@color/white"
-            android:includeFontPadding="false"
             android:fontFamily="@font/inter"
+            android:includeFontPadding="false"
             android:text="Crear cuenta"
             android:textColor="@color/black"
+            android:textSize="18dp"
             app:cornerRadius="80dp" />
 
         <Button
@@ -94,6 +95,7 @@
             android:fontFamily="@font/inter"
             android:text="Iniciar sesión"
             android:textColor="@color/black"
+            android:textSize="18dp"
             app:cornerRadius="80dp" />
 
         <TextView

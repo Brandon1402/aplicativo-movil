@@ -59,35 +59,37 @@
 
         <Button
             android:id="@+id/button24"
-            android:layout_width="284dp"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="78dp"
             android:layout_marginTop="401dp"
-            android:layout_marginEnd="48dp"
-            android:layout_marginBottom="452dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="443dp"
             android:backgroundTint="@color/fondo_gris"
             android:text="Sí"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textSize="18dp" />
 
         <Button
             android:id="@+id/button25"
-            android:layout_width="284dp"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="76dp"
-            android:layout_marginTop="485dp"
-            android:layout_marginEnd="50dp"
-            android:layout_marginBottom="368dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="473dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="371dp"
             android:backgroundTint="@color/fondo_gris"
             android:text="No"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textSize="18dp" />
 
         <TextView
             android:id="@+id/textView16"
@@ -97,12 +99,13 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="78dp"
-            android:layout_marginTop="214dp"
-            android:layout_marginEnd="57dp"
-            android:layout_marginBottom="634dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="193dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginBottom="655dp"
             android:fontFamily="@font/inter"
             android:text="6. ¿Tiene problemas al ver los objetos cercanos a usted?"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textSize="18dp" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
