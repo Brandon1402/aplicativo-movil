@@ -39,5 +39,15 @@
     <string name="Ejercicio_para">Ejercicio para la vista cansada</string>
     <string name="lectura9">Mirar con los ojos cerrados al sol y mueve la cabeza en todas las direcciones: de derecha a izquierda y de arriba abajo durante 2-3 minutos. Al terminar puedes mojarte con agua fría la cara para refrescarte.</string>
     <string name="Atras">Atras</string>
+    <string name="Recomendaciones">Recomendaciones</string>
+    <string name="R1">Conozca su historial familiar de la salud de los ojos.</string>
+    <string name="R2">Mantenga un peso saludable.</string>
+    <string name="R3">Póngase a la moda y use sus anteojos de sol.</string>
+    <string name="R4">Deje que sus ojos descansen.</string>
+    <string name="R5">Hidratación ocular</string>
+
+
+
+
 
 </resources>

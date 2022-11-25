@@ -13,6 +13,7 @@ class Menu : AppCompatActivity() {
         cerrar()
         opti()
         ejerci()
+        recomen()
     }
     fun iniEvent() {
 
@@ -46,6 +47,15 @@ class Menu : AppCompatActivity() {
         val Button = findViewById<Button>(R.id.button12)
         Button.setOnClickListener {
             val intent = Intent(this, Ejercicio1::class.java)
+            startActivity(intent)
+        }
+    }
+
+    fun recomen() {
+
+        val Button = findViewById<Button>(R.id.button13)
+        Button.setOnClickListener {
+            val intent = Intent(this, Recomendaciones::class.java)
             startActivity(intent)
         }
     }
