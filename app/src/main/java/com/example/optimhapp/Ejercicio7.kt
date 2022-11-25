@@ -5,18 +5,18 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Ejercicio1 : AppCompatActivity() {
+class Ejercicio7 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_ejercicio1)
+        setContentView(R.layout.activity_ejercicio7)
         iniEvent()
     }
 
     fun iniEvent() {
 
-        val Button = findViewById<Button>(R.id.button35)
+        val Button = findViewById<Button>(R.id.button40)
         Button.setOnClickListener {
-            val intent = Intent(this, Ejercicio2::class.java)
+            val intent = Intent(this, Ejercicio8::class.java)
             startActivity(intent)
         }
     }

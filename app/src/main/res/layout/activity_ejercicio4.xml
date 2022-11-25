@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ejercicio1">
+    tools:context=".Ejercicio4">
 
     <ImageView
-        android:id="@+id/imageView63"
+        android:id="@+id/imageView77"
         android:layout_width="149dp"
         android:layout_height="139dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/ellipse_23" />
 
     <ImageView
-        android:id="@+id/imageView66"
+        android:id="@+id/imageView78"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,7 +31,7 @@
         app:srcCompat="@drawable/ellipse_18__2_" />
 
     <ImageView
-        android:id="@+id/imageView67"
+        android:id="@+id/imageView79"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +43,7 @@
         app:srcCompat="@drawable/image_3__1_" />
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/textView35"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ejer"
@@ -55,9 +55,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.151" />
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movimiento"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
 
     <ImageView
-        android:id="@+id/imageView68"
+        android:id="@+id/imageView80"
         android:layout_width="484dp"
         android:layout_height="181dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,38 +82,25 @@
         app:srcCompat="@drawable/ellipse_29" />
 
     <Button
-        android:id="@+id/button35"
+        android:id="@+id/button38"
         android:layout_width="141dp"
         android:layout_height="55dp"
-        android:backgroundTint="@color/gris"
         android:text="@string/siguiente"
         android:textColor="@color/white"
         app:cornerRadius="80dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView68"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918" />
-
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Parpadear"
-        android:textColor="@color/black"
-        android:textSize="28sp"
+        android:backgroundTint="@color/gris"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.337" />
+        app:layout_constraintVertical_bias="0.918"/>
 
     <TextView
-        android:id="@+id/textView28"
+        android:id="@+id/textView38"
         android:layout_width="351dp"
         android:layout_height="259dp"
-        android:text="@string/lectura"
+        android:text="@string/lectura4"
         android:textColor="@color/black"
         android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"

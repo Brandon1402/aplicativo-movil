@@ -21,7 +21,23 @@
     <string name="name">Nombre</string>
     <string name="Parpadear">Parpadear</string>
     <string name="lectura">Durante el parpadeo, cada 3 ó 4 segundos, humedecemos nuestros ojos con las lágrimas, lo que ayuda a expulsar elementos externos nocivos.</string>
-
-
+    <string name="ojos">Descansar los ojos</string>
+    <string name="lectura2">Será recomendable que cada hora interrumpas actividades como trabajar frente al ordenador o la lectura al menos durante 5-10 minutos, por ejemplo para ir al baño o aprovechar a hacer alguna llamada para relajar la vista.</string>
+    <string name="Presion">Presión en los ojos</string>
+    <string name="lectura3">Con las yemas de los dedos presiona suavemente los ojos cerrados con el objetivo de activar el líquido intraocular durante unos segundos.
+        Puedes hacer dos veces al día nada más levantarte y antes de irte a dormir.</string>
+    <string name="movimiento">Movimiento ocular</string>
+    <string name="lectura4">Habitualmente enfocamos hacia un punto frontal por ello y con el fin de ejercitar el nervio óptico recuerda también mirar hacia la derecha y hacia la izquierda 3 o cuatro veces seguidas.</string>
+    <string name="masajea">Masajea las órbitas de los ojos</string>
+    <string name="lectura5">Regálate un masaje muy sencillo. Con las yemas de los pulgares presiona suavemente el hueso debajo de las cejas desde la nariz hasta la sien realizando movimientos circulares.</string>
+    <string name="acomodacion">Acomodación y enfoque</string>
+    <string name="lectura6">Hay que colocar el dedo índice de la mano derecha delante del ojo a la distancia del codo y el dedo índice izquierdo a unos 15 centímetros detrás del derecho.La idea es ir alternando y enfocar a uno y a otro durante al menos un minuto.</string>
+    <string name="Prevenir">Prevenir la sequedad ocular</string>
+    <string name="lectura7">Para evitar la sequedad ocular te recomendamos el siguiente ejercicio en el que debes abrir y cerrar y los ojos, al menos 20 veces para conseguir relajar tus músculos faciales.</string>
+    <string name="Mirar">Mirar al horizonte</string>
+    <string name="lectura8">También es beneficioso para la salud ocular dirigir la mirada al punto más lejano que tengas de vez en cuando. Siéntate cómodamente desde tu silla con la espalda recta, o bien en el coche cuando estés de viaje, e intenta concentrarte en el objeto más lejano lo que también ayudará a relajar tu vista y, por tanto, al nervio ocular.</string>
+    <string name="Ejercicio_para">Ejercicio para la vista cansada</string>
+    <string name="lectura9">Mirar con los ojos cerrados al sol y mueve la cabeza en todas las direcciones: de derecha a izquierda y de arriba abajo durante 2-3 minutos. Al terminar puedes mojarte con agua fría la cara para refrescarte.</string>
+    <string name="Atras">Atras</string>
 
 </resources>
