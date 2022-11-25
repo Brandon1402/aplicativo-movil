@@ -11,6 +11,7 @@ class Menu : AppCompatActivity() {
         setContentView(R.layout.activity_menu)
         iniEvent()
         cerrar()
+        opti()
     }
     fun iniEvent() {
 
@@ -26,6 +27,15 @@ class Menu : AppCompatActivity() {
         val Button = findViewById<Button>(R.id.button31)
         Button.setOnClickListener {
             val intent = Intent(this, cambiarycerrar::class.java)
+            startActivity(intent)
+        }
+    }
+
+    fun opti() {
+
+        val Button = findViewById<Button>(R.id.button11)
+        Button.setOnClickListener {
+            val intent = Intent(this, AgregarOptica::class.java)
             startActivity(intent)
         }
     }

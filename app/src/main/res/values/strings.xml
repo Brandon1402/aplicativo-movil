@@ -15,7 +15,10 @@
     <string name="cerrar">Cerra sesión</string>
     <string name="cambiar">Cambiar de cuenta</string>
     <string name="op">Opciones</string>
-
+    <string name="Agregar">Agregar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="AgregarO">Agregar óptica</string>
+    <string name="name">Nombre</string>
 
 
 
