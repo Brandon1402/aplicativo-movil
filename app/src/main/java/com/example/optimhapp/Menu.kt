@@ -10,12 +10,22 @@ class Menu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
         iniEvent()
+        cerrar()
     }
     fun iniEvent() {
 
         val Button = findViewById<Button>(R.id.button10)
         Button.setOnClickListener {
             val intent = Intent(this, pregunta1::class.java)
+            startActivity(intent)
+        }
+    }
+
+    fun cerrar() {
+
+        val Button = findViewById<Button>(R.id.button31)
+        Button.setOnClickListener {
+            val intent = Intent(this, cambiarycerrar::class.java)
             startActivity(intent)
         }
     }

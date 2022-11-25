@@ -12,6 +12,11 @@
     <string name="ejer">Ejercicios</string>
     <string name="recomen">Recomendaciones</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="cerrar">Cerra sesión</string>
+    <string name="cambiar">Cambiar de cuenta</string>
+    <string name="op">Opciones</string>
+
+
 
 
 </resources>
